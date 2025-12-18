@@ -1,6 +1,0 @@
-#! /bin/bash
-
-set -e
-
-rustfmt --version
-find -name "*.rs" -exec rustfmt "$@" --edition 2021 {} +
